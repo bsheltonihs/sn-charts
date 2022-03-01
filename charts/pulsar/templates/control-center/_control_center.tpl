@@ -4,7 +4,7 @@ control center domain
 {{- define "pulsar.control_center_domain" -}}
 {{- if .Values.ingress.control_center.enabled -}}
     {{- if .Values.deployment.openshift }}
-{{- printf "%s-%s-%s.%s" .Release.Name .Values.pulsar_manager.component .Release.Namespace .Values.domain.suffix -}}
+{{- printf "%s-%s-%s.%s" .Values.pulsar_metadata.clusterName .Values.pulsar_manager.component .Release.Namespace .Values.domain.suffix -}}
     {{- else -}}
         {{- if .Values.ingress.control_center.external_domain }}
 {{- printf "%s" .Values.ingress.control_center.external_domain -}}
