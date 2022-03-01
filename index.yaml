@@ -3,11 +3,11 @@ entries:
   pulsar:
   - apiVersion: v1
     appVersion: 2.8.4
-    created: "2022-03-01T15:10:17.8792418-06:00"
+    created: "2022-03-01T15:26:39.807359-06:00"
     description: Apache Pulsar Helm chart for Kubernetes
-    digest: 710769c696453ac89dc9427aafa90bd7e388dffccb0a8b36ddf4cbc3a5b8499b
+    digest: a494e42366c5def308be81d7067596de962bd7d98d0dde11305a8013d22f618f
     name: pulsar
     urls:
     - https://bsheltonihs.github.io/sn-charts/pulsar-2.8.4.tgz
     version: 2.8.4
-generated: "2022-03-01T15:10:17.8731883-06:00"
+generated: "2022-03-01T15:26:39.8021936-06:00"
