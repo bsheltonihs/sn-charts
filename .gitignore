@@ -11,7 +11,7 @@
 .chart-packages/**
 .chart-index/**
 .vs/
-charts/**/*.tgz
+**/*.tgz
 charts/**/*.lock
 
 PRIVATEKEY
